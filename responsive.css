@@ -42,7 +42,69 @@
   
   .top-wrapper h1 {
     font-size: 24px;
+  }/*---------- FOR PC ----------*/
+@media all and (max-width: 2000px) {
+  .activity {
+    width: 25%;
   }
+}
+
+/*---------- FOR TABLET ----------*/
+@media all and (max-width: 1000px) {
+  .activity {
+    width: 50%;
+    margin-bottom: 30px;
+  }
+
+  .top-wrapper {
+    padding: 550px 0 100px 0;
+  }
+
+  .top-wrapper h1 {
+    font-size: 32px;
+  }
+
+  .heading h2 {
+    font-size: 20px;
+  }
+
+}
+
+/*---------- FOR SMARTPHONE ----------*/
+@media all and (max-width: 670px) {
+  .activity {
+    width: 100%;
+  }
+
+  .btn {
+    width: 100%;
+  }
+
+  .instagram {
+    margin-bottom: 10px;
+  }
+  
+  .top-wrapper {
+    padding: 425px 0 100px 0;
+ }
+
+  .header-right {
+    display: none;
+  }
+  
+  .menu-icon {
+    display: block;
+  }
+  
+  .top-wrapper h1 {
+    font-size: 24px;
+  }
+
+  .top-wrapper p {
+    font-size: 14px;
+  }
+
+}
 
   .top-wrapper p {
     font-size: 14px;
