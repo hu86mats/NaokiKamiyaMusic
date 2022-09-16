@@ -36,9 +36,9 @@ header {
 
 .header-left {
   float: left;
-  font-size: 45px;
+  font-size: 40px;
   opacity: 0.4;
-  letter-spacing: 10px;
+  letter-spacing: 8px;
 }
 
 .header-left a {
@@ -46,7 +46,7 @@ header {
 }
 
 .header-left:hover {
-  opacity: 0.6;
+  opacity: 0.75;
   transition: all 0.8s;
 }
 
@@ -76,25 +76,17 @@ header {
   color: #00eeff;
 }
 
-.menu-icon {
-  color: white;
-  float: right;
-  font-size: 25px;
-  padding: 21px 0;
+.btn_menu {
   display: none;
-  transition: all 0.8s;
-}
-
-.menu-icon:hover {
-  color: #00eeff;
+  float: right;
 }
 
 /* ---------- TOP-WRAPPER ----------*/
 .top-wrapper {
-  padding: 700px 0 15px 0;
+  padding: 650px 0 65px 0;
   color: rgba(0, 0, 0, 0.85);
   text-align: center;
-  background-image: url("https://github.com/hu86mats/NaokiKamiyaMusic/blob/main/top01.jpg?raw=true");
+  background-image: url("https://lh3.googleusercontent.com/pw/AL9nZEXoO2VAI8mQWxjpzBQi1WH5WI8i24zOxAVuvcKRcOjqiGp_TCT8FTLV5mjI3fHVwqS1NBDHjg5oVhRXQciRdLWonftD9zPjDmktalmoISle4HlmJL-yoI-toCZpXbFrzzKyP745kZkq3cNQFRlAQMvs=w979-h735-no?authuser=0");
   background-size: cover;
   background-attachment: fixed;
 }
@@ -231,3 +223,4 @@ footer {
   padding-bottom: 10px;
   text-align: center;
 }
+
