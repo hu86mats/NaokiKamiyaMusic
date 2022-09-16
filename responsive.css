@@ -3,6 +3,11 @@
   .activity {
     width: 25%;
   }
+
+  .top-wrapper {
+    background-image: url("https://github.com/hu86mats/NaokiKamiyaMusic/blob/main/top01.jpg?raw=true");
+  }
+
 }
 
 /*---------- FOR TABLET ----------*/
@@ -46,6 +51,8 @@
  }
 
   .img {
+    background-image: url("https://github.com/hu86mats/NaokiKamiyaMusic/blob/main/top01sp.jpg?raw=true");
+    background-position: center;
   }
 
   .header-left {
