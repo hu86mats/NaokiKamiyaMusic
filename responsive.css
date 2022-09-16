@@ -6,27 +6,6 @@
 }
 
 /*---------- FOR TABLET ----------*/
-@media all and (max-width: 1000px) {
-  .activity {
-    width: 50%;
-    margin-bottom: 30px;
-  }
-
-  .top-wrapper {
-    padding: 550px 0 100px 0;
-  }
-
-  .top-wrapper h1 {
-    font-size: 32px;
-  }
-
-  .heading h2 {
-    font-size: 20px;
-  }
-
-}
-
-/*---------- FOR SMARTPHONE ----------*/
 @media all and (max-width: 670px) {
   .activity {
     width: 100%;
@@ -42,10 +21,17 @@
   }
   
   .top-wrapper {
-    background-image: url("https://github.com/hu86mats/NaokiKamiyaMusic/blob/main/top01sp.jpg?raw=true");
-    background-color: #f7f7f7;
     padding: 250px 0 100px 0;
  }
+
+  .img {
+    background-image: url("https://github.com/hu86mats/NaokiKamiyaMusic/blob/main/top01sp.jpg?raw=true;");
+    background-size: cover;
+    background-position: center;
+    max-width: 100%;
+    height:auto
+  }
+
   .header-left {
     font-size: 25px;
     padding-top: 20px;
