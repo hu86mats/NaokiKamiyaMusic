@@ -4,9 +4,9 @@
     width: 25%;
   }
 
-  .img {
-    background-image: url("https://github.com/hu86mats/NaokiKamiyaMusic/blob/main/top01.jpg?raw=true");
-    background-position: center;
+  .top-wrapper {
+    background-size: cover;
+    background-image: url(https://github.com/hu86mats/NaokiKamiyaMusic/blob/main/top01.jpg?raw=true);
   }
 
 }
@@ -51,11 +51,6 @@
     padding: 250px 0 100px 0;
  }
 
-  .img {
-    background-image: url("https://github.com/hu86mats/NaokiKamiyaMusic/blob/main/top01sp.jpg?raw=true");
-    background-position: center;
-  }
-
   .header-left {
     font-size: 25px;
     padding-top: 20px;
@@ -76,6 +71,13 @@
 
   .ani {
     text-align: left;
+  }
+
+  .top-wrapper {
+    background-size: cover;
+    background-image: url(https://github.com/hu86mats/NaokiKamiyaMusic/blob/main/top01sp.jpg?raw=true);
+    max-width: 100%;
+    height: auto;
   }
 
 }
