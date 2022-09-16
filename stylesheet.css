@@ -91,9 +91,15 @@ header {
   background-attachment: fixed;
 }
 
+.img {
+  max-width: 100%;
+  height: auto;
+}
+
 .ani{
   padding: 20px;
 }
+
 .ani2{
   letter-spacing: 5.5px;
   display: inline-block;
