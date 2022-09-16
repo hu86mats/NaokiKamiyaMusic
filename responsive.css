@@ -37,12 +37,19 @@
   }
 
   .instagram {
+    margin-top: 35px;
     margin-bottom: 10px;
   }
   
   .top-wrapper {
-    padding: 425px 0 100px 0;
+    background-image: none;
+    background-color: #f7f7f7;
+    padding: 150px 0 50px 0;
  }
+  .header-left {
+    font-size: 25px;
+    padding-top: 20px;
+  }
 
   .header-right {
     display: none;
@@ -52,12 +59,9 @@
     display: block;
   }
   
-  .top-wrapper h1 {
-    font-size: 24px;
-  }
-
-  .top-wrapper p {
-    font-size: 14px;
+  .ani2 {
+    font-size: 65px;
+    color: black;
   }
 
 }
