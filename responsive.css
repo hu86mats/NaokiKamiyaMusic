@@ -4,8 +4,9 @@
     width: 25%;
   }
 
-  .top-wrapper {
+  .img {
     background-image: url("https://github.com/hu86mats/NaokiKamiyaMusic/blob/main/top01.jpg?raw=true");
+    background-position: center;
   }
 
 }
