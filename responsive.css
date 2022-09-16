@@ -42,9 +42,9 @@
   }
   
   .top-wrapper {
-    background-image: none;
+    background-image: url("https://github.com/hu86mats/NaokiKamiyaMusic/blob/main/top01sp.jpg?raw=true");
     background-color: #f7f7f7;
-    padding: 150px 0 50px 0;
+    padding: 250px 0 100px 0;
  }
   .header-left {
     font-size: 25px;
@@ -60,8 +60,12 @@
   }
   
   .ani2 {
-    font-size: 65px;
-    color: black;
+    font-size: 55px;
+    margin: -7.5px 0;
+  }
+
+  .ani {
+    text-align: left;
   }
 
 }
