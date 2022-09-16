@@ -86,16 +86,8 @@ header {
   padding: 650px 0 65px 0;
   color: rgba(0, 0, 0, 0.85);
   text-align: center;
-  background-size: cover;
   background-attachment: fixed;
 }
-
-.img {
-  max-width: 100%;
-  height: auto;
-  max-width: 100%;
-  height: auto;
-  }
 
 .ani{
   padding: 20px;
