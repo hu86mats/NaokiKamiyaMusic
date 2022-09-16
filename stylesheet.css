@@ -86,7 +86,6 @@ header {
   padding: 650px 0 65px 0;
   color: rgba(0, 0, 0, 0.85);
   text-align: center;
-  background-image: url("https://github.com/hu86mats/NaokiKamiyaMusic/blob/main/top01.jpg?raw=true");
   background-size: cover;
   background-attachment: fixed;
 }
@@ -94,12 +93,13 @@ header {
 .img {
   max-width: 100%;
   height: auto;
-}
+  max-width: 100%;
+  height: auto;
+  }
 
 .ani{
   padding: 20px;
 }
-
 .ani2{
   letter-spacing: 5.5px;
   display: inline-block;
@@ -229,3 +229,4 @@ footer {
   padding-bottom: 10px;
   text-align: center;
 }
+
